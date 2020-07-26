@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ASP_Cubo_OLAP</Database>
+    <Server>(local)</Server>
+    <ConnectionString>Data Source=(local);Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>mwXLa4YbQDKvfTrGM56Zp4OUESc=24/07/2020 23:07:2224/07/2020 23:05:20</TimeStamp>
+        <ID>
+          <String>DW Adventure Works</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>hVFWpWwKdJGohdGaavwpMZ7slsM=24/07/2020 20:37:4524/07/2020 20:37:44</TimeStamp>
+        <ID>
+          <String>DW Adventure Works</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BKtVFYGXK14OK5iEV2iEkd3G0K8=24/07/2020 20:19:3224/07/2020 20:19:32</TimeStamp>
+        <ID>
+          <String>D Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gFUyeGReC2/Qs36R7u3526nVv/E=24/07/2020 20:19:4724/07/2020 20:19:47</TimeStamp>
+        <ID>
+          <String>D Direccion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LtnJjzW+f/Ltv+gg8r3B7yHdMOg=24/07/2020 20:20:0624/07/2020 20:20:06</TimeStamp>
+        <ID>
+          <String>D Producto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fww3VsBNY83FfnQZSDR7GKinL+E=24/07/2020 20:21:0724/07/2020 20:21:07</TimeStamp>
+        <ID>
+          <String>H Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>3KaMwp8E9FBNPLeA7myrey0H7Kk=24/07/2020 23:03:5924/07/2020 23:03:58JJ9PUpsr8xkbelH/8k/nMMzvTOI=24/07/2020 23:03:5924/07/2020 23:03:59</TimeStamp>
+        <ID>
+          <String>DW Adventure Works</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>7Plz3DATgkOyhdk3+HAuQdB7TCY=24/07/2020 19:31:0124/07/2020 19:31:00</TimeStamp>
+      <ID>
+        <String>ASP_Cubo_OLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-07-25T03:25:17.053333Z</LastDeployed>
+</DeploymentSnapshot>
